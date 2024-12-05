@@ -19,7 +19,7 @@ Our projects span multiple domains, leveraging the best practices of the modern 
 ## 🌈 Contribution Guidelines  
 
 We believe in **collaboration** and **community**! 🫂 Here's how you can join us:  
-1. Fork any project that catches your eye 👀.  
+1. Email us to catch our eye 👀.  
 2. Read the detailed **Contributing.md** in the project repository 📜.  
 3. Submit issues, feature requests, or bug fixes – your input matters! 🐛✨.  
 4. Create pull requests and contribute to our mission of building amazing things.  
