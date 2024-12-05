@@ -9,7 +9,7 @@
 At **Developers**, we push the boundaries of innovation with a powerful tech stack:  
 - 🌐 **Frontend:** [Next.js](https://nextjs.org/) with TypeScript for a modern, blazing-fast user experience.  
 - 🛠️ **Backend:** [Express.js](https://expressjs.com/) and [tRPC](https://trpc.io/) for flexible and type-safe APIs.  
-- 💾 **Databases:** MongoDB, integrated with ORMs like [Mongoose](https://mongoosejs.com/), [Sequelize](https://sequelize.org/), and the minimalist [Drizzle ORM](https://drizzle.team/).  
+- 💾 **Databases:** MongoDB, SQL, integrated with ORMs like [Mongoose](https://mongoosejs.com/), [Sequelize](https://sequelize.org/), and the minimalist [Drizzle ORM](https://drizzle.team/).  
 - 📦 **Architecture:** Monorepos for seamless collaboration and shared libraries using tools like [Nx](https://nx.dev/).  
 
 Our projects span multiple domains, leveraging the best practices of the modern web to deliver cutting-edge solutions.  
