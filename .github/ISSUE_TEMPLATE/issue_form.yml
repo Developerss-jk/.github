@@ -39,11 +39,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for submitting an issue! Make sure to provide as much information as possible.
-
- - type: markdown
-    attributes:
-      value: |
         ### Instructions:
         Based on your selection above, use the appropriate template:
         - **Bug Report**: [Click here to use the Bug Report template](./bug_report.yml)
