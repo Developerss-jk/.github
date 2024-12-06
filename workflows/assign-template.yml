@@ -1,0 +1,58 @@
+name: Apply Issue Template Based on Label
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  update-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update issue body based on label
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // Templates for each label
+            const templates = {
+              bug: `
+                  ## Bug Report
+                  **Describe the issue:**
+
+                  ### Steps to Reproduce
+                  1. Step one
+                  2. Step two
+
+                  ### Expected Behavior
+                  What you expected to happen.
+
+                  ### Additional Context
+                  Add any other context about the problem here.
+                                `,
+                                enhancement: `
+                  ## Feature Request
+                  **Describe the feature you'd like:**
+
+                  ### Benefits
+                  Why is this feature important?
+
+                  ### Additional Context
+                  Add screenshots or context for this feature.
+              `
+            };
+
+            // Get the assigned label
+            const label = context.payload.label.name.toLowerCase();
+
+            // Ensure the label has a template
+            if (templates[label]) {
+              const { owner, repo } = context.repo;
+              const issueNumber = context.payload.issue.number;
+
+              // Update the issue body with the corresponding template
+              await github.issues.update({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: templates[label]
+              });
+            }
