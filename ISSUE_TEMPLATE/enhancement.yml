@@ -1,0 +1,10 @@
+name: Enhancement Request
+about: Suggest a feature or enhancement
+title: "[ENHANCEMENT] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        Describe the feature or improvement in detail.
