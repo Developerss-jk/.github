@@ -1,0 +1,39 @@
+name: General Issue Form
+description: Choose the type of issue and provide details.
+title: "[ISSUE] Your issue title here"
+labels: []
+assignees: []
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Select Issue Type
+      description: Choose the type of issue you want to report.
+      options:
+        - Bug Report
+        - Enhancement Request
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Issue Title
+      description: Provide a short title for your issue.
+      placeholder: "Enter a title for the issue"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Issue Details
+      description: Provide a detailed description of the issue.
+      placeholder: "Describe your issue or feature request in detail."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting an issue! Make sure to provide as much information as possible.
