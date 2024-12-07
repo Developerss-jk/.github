@@ -24,7 +24,7 @@ We believe in **collaboration** and **community**! 🫂 Here's how you can join 
 3. Submit issues, feature requests, or bug fixes – your input matters! 🐛✨.  
 4. Create pull requests and contribute to our mission of building amazing things.  
 
-🔗 Need help? Drop by our [Discussions](https://github.com/orgs/developers/discussions) tab to connect with the team!  
+🔗 Need help? Drop by our [Discussions](https://github.com/orgs/developerss-jk/discussions) tab to connect with the team!  
 
 ---
 
